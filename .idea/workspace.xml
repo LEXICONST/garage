@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af84168-e71e-49b8-9ba9-d373ab6718a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/se/lexicon/garage/GarageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/garage2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/lexicon/garage/Garage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/lexicon/garage/Garage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/lexicon/garage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/lexicon/garage/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java" afterDir="false" />
@@ -21,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Garage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="120">
+              <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding>
                 <element signature="e#673#674#0" expanded="true" />
                 <element signature="e#720#721#0" expanded="true" />
@@ -36,8 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/GarageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="390">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/GarageInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -45,8 +55,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="388">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/UserInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -54,9 +73,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="180">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
               </folding>
@@ -67,12 +88,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
                 <element signature="e#122#123#0" expanded="true" />
                 <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,10 +126,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java" />
         <option value="$PROJECT_DIR$/src/se/lexicon/garage/Main.java" />
         <option value="$PROJECT_DIR$/src/se/lexicon/garage/GarageTest.java" />
+        <option value="$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java" />
+        <option value="$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/se/lexicon/garage/Garage.java" />
       </list>
     </option>
@@ -157,10 +180,13 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550825022128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550831527662" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -183,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GarageTest.park">
+  <component name="RunManager" selected="JUnit.GarageTest.unpark">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.garage.Main" />
       <module name="garage2" />
@@ -203,7 +229,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GarageTest.park" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GarageTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="garage2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.garage" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.garage.GarageTest" />
+      <option name="METHOD_NAME" value="find" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GarageTest.park" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="garage2" />
       <extension name="coverage">
         <pattern>
@@ -219,9 +261,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GarageTest.unpark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="garage2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.garage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.garage" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.garage.GarageTest" />
+      <option name="METHOD_NAME" value="unpark" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GarageTest.park" />
+        <item itemvalue="JUnit.GarageTest.unpark" />
+        <item itemvalue="JUnit.GarageTest.find" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -239,11 +298,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="GarageTest_park - 2019.02.22 at 10h 52m 59s.xml">
+      <configuration name="GarageTest.park" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_park - 2019.02.22 at 11h 09m 06s.xml">
+      <configuration name="GarageTest.park" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_find - 2019.02.22 at 11h 15m 59s.xml">
+      <configuration name="GarageTest.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_find - 2019.02.22 at 11h 17m 23s.xml">
+      <configuration name="GarageTest.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_unpark - 2019.02.22 at 11h 20m 56s.xml">
+      <configuration name="GarageTest.unpark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_unpark - 2019.02.22 at 11h 21m 40s.xml">
+      <configuration name="GarageTest.unpark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_find - 2019.02.22 at 11h 24m 08s.xml">
+      <configuration name="GarageTest.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_unpark - 2019.02.22 at 11h 25m 24s.xml">
+      <configuration name="GarageTest.unpark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_unpark - 2019.02.22 at 11h 26m 07s.xml">
+      <configuration name="GarageTest.unpark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GarageTest_unpark - 2019.02.22 at 11h 31m 14s.xml">
+      <configuration name="GarageTest.unpark" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +344,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30010834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,17 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -298,36 +378,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="388">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/GarageInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/EmptyVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
             <element signature="e#122#123#0" expanded="true" />
             <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/GarageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="390">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/lexicon/garage/Garage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="e#673#674#0" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
@@ -340,9 +449,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>garage2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>garage</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

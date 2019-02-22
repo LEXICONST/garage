@@ -4,6 +4,10 @@ public abstract class Vehicle {
 
     protected String brand;
 
+    public Vehicle(){
+        brand = "NoName";
+    }
+
     public Vehicle(String brand){
         setBrand(brand);
     }

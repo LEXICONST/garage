@@ -17,6 +17,7 @@ public class Garage implements GarageInterface<Vehicle> {
         for(Vehicle v : vehicles) {
             if(v instanceof EmptyVehicle) {
                 lotNumber = vehicles.indexOf(v);
+                vehicles.remove(v);
                 vehicles.add(lotNumber, vehicle);
                 return vehicles.indexOf(vehicle);
             }
@@ -31,6 +32,7 @@ public class Garage implements GarageInterface<Vehicle> {
     public Vehicle unpark(int parkingLot){
         Vehicle temp = vehicles.get(parkingLot);
         vehicles.remove(parkingLot);
+        vehicles.add(parkingLot, new EmptyVehicle());
         return temp;
     }
 

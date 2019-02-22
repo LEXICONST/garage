@@ -10,7 +10,7 @@ public class Main {
         }
 
         System.out.println(garage.find(0));
-        
+
         System.out.println(garage);
 
         garage.unpark(0);
