@@ -6,9 +6,22 @@ public class Garage implements GarageInterface<Vehicle> {
 
     private ArrayList<Vehicle> vehicles = new ArrayList<>(72);
 
+    {
+        for(int i=0; i<72; i++){
+            vehicles.add(new EmptyVehicle("empty"));
+        }
+    }
+
     public int park(Vehicle vehicle){
-        vehicles.add(vehicle);
-        return vehicles.indexOf(vehicle);
+        int lotNumber = -1;
+        for(Vehicle v : vehicles) {
+            if(v instanceof EmptyVehicle) {
+                lotNumber = vehicles.indexOf(v);
+                vehicles.add(lotNumber, vehicle);
+                return vehicles.indexOf(vehicle);
+            }
+        }
+        return lotNumber;
     }
 
     public Vehicle find(int parkingLot){
@@ -19,6 +32,10 @@ public class Garage implements GarageInterface<Vehicle> {
         Vehicle temp = vehicles.get(parkingLot);
         vehicles.remove(parkingLot);
         return temp;
+    }
+
+    public ArrayList<Vehicle> getVehicles(){
+        return vehicles;
     }
 
     public String toString() {

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="garage">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/se/lexicon/garage/garage.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
