@@ -1,14 +1,25 @@
 package se.lexicon.garage;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Garage implements GarageInterface<Vehicle> {
 
+
+
     private ArrayList<Vehicle> vehicles = new ArrayList<>(72);
 
+    //initieringsblock
     {
         for(int i=0; i<72; i++){
             vehicles.add(new EmptyVehicle("empty"));
+        }
+    }
+
+    public Garage() throws SQLException {
+        vehicles = MySQLConnection.getVehiclesDB();
+        for(int i=vehicles.size(); i<72; i++){
+            vehicles.add(new EmptyVehicle());
         }
     }
 

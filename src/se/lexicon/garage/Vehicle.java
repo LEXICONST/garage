@@ -13,7 +13,7 @@ public abstract class Vehicle {
     }
 
     public void setBrand(String brand) {
-        if (brand.matches("^[a-zA-ZåäöüÅÄÖÜ\\s\\-]+$") && brand.length() > 0) {
+        if (brand.matches("^[a-zA-ZåäöüÅÄÖÜ0-9\\s\\-]+$") && brand.length() > 0) {
             this.brand = brand;
         } else {
             throw new IllegalArgumentException("You cannot set the brand with zero or illegal characters.");

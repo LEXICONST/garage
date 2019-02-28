@@ -2,12 +2,14 @@ package se.lexicon.garage;
 
 import org.junit.jupiter.api.Test;
 
+import java.sql.SQLException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GarageTest {
 
     @Test
-    void unpark(){
+    void unpark() throws SQLException {
         Garage testGarage = new Garage();
 
         Car testCar0 = new Car("testZero");
@@ -25,7 +27,7 @@ class GarageTest {
     }
 
     @Test
-    void park() {
+    void park() throws SQLException{
         Garage testGarage = new Garage();
         Car testCar = new Car("Mäscha");
         assertEquals(72, testGarage.getVehicles().size());
@@ -34,7 +36,7 @@ class GarageTest {
     }
 
     @Test
-    void find(){
+    void find() throws SQLException{
         Garage testGarage = new Garage();
 
         Car testCar0 = new Car("testZero");
