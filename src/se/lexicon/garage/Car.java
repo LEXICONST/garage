@@ -13,6 +13,10 @@ public class Car extends Vehicle{
         setTopSpeed(topSpeed);
     }
 
+    public int getTopSpeed(){
+        return topSpeed;
+    }
+
     public void setTopSpeed(int newTopSpeed){
         if(newTopSpeed >= 0){
             topSpeed = newTopSpeed;
