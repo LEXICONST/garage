@@ -41,13 +41,14 @@ public class MySQLConnection {
         return vehicles;
     }//
 
-    public static void addVehicle(Vehicle vehicle) throws SQLException{
+    public static void saveVehicleDB(Vehicle vehicle) throws SQLException{
         Connection conn = null;
         PreparedStatement pstmt = null;
 
-        String maker = vehicle.getBrand();
+        String maker = vehicle.getMake();
         int topSpeed = 0;
         String type = "";
+        int parkingLot = vehicle.getParkingLot();
 
         if(vehicle instanceof Car){
             Car temp = (Car)vehicle;
@@ -58,11 +59,12 @@ public class MySQLConnection {
         try{
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila", "root", "caSandRa2!");
 
-            pstmt = conn.prepareStatement("INSERT INTO vehicle (maker, top_speed, type) VALUES(?, ?, ?)");
+            pstmt = conn.prepareStatement("INSERT INTO vehicle (maker, top_speed, type, parking_lot) VALUES(?, ?, ?, ?)");
 
             pstmt.setString(1, maker);
             pstmt.setInt(2, topSpeed);
             pstmt.setString(3, type);
+            pstmt.setInt(4, parkingLot);
             pstmt.executeUpdate();
 
         }catch (SQLException e){
@@ -75,7 +77,7 @@ public class MySQLConnection {
     }
 
     /*
-    public static void addVehicle(Vehicle vehicle) throws SQLException {
+    public static void saveVehicleDB(Vehicle vehicle) throws SQLException {
         Connection conn = null;
         Statement stmt = null;
         ResultSet rs = null;
@@ -93,7 +95,7 @@ public class MySQLConnection {
             if (vehicle instanceof Car) {
                 Car tempCar = (Car) vehicle;
                 rs.afterLast();
-                stmt.executeUpdate("Insert Into vehicle(maker, top_speed, type) values(\'" + tempCar.getBrand() + "\', \'"
+                stmt.executeUpdate("Insert Into vehicle(maker, top_speed, type) values(\'" + tempCar.getMake() + "\', \'"
                         + tempCar.getTopSpeed() + "\', \'car\')");
             }
         } catch (SQLException e) {

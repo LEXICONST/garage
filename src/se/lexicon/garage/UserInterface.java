@@ -35,7 +35,7 @@ public class UserInterface {
         garage.park(car);
         System.out.println("Car parked in garage!");
 
-        MySQLConnection.addVehicle(car);
+        MySQLConnection.saveVehicleDB(car);
     }
 
     public void findVehicle(){

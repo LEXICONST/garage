@@ -9,7 +9,7 @@ public class Car extends Vehicle{
     }
 
     public Car(String brand, int topSpeed){
-        setBrand(brand);
+        setMake(brand);
         setTopSpeed(topSpeed);
     }
 

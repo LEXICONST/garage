@@ -14,16 +14,16 @@ public class Main {
         ArrayList<Vehicle> vehicles = MySQLConnection.getVehiclesDB();
 
         for(Vehicle vehicle : vehicles){
-            System.out.println(vehicle.getBrand());
+            System.out.println(vehicle.getMake());
         }
 
-        MySQLConnection.addVehicle(new Car("VolksWagen", 160));
+        MySQLConnection.saveVehicleDB(new Car("VolksWagen", 160));
 
         vehicles = MySQLConnection.getVehiclesDB();
         System.out.println();
 
         for(Vehicle vehicle : vehicles){
-            System.out.println(vehicle.getBrand());
+            System.out.println(vehicle.getMake());
         }
 */
 //        Garage garage = new Garage();

@@ -4,7 +4,7 @@ public class EmptyVehicle extends Vehicle{
 
 
     public EmptyVehicle(){
-        brand = "empty";
+        make = "empty";
     }
 
     public EmptyVehicle(String brand) {
