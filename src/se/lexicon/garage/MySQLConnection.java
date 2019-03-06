@@ -13,7 +13,7 @@ public class MySQLConnection {
         ArrayList<Vehicle> vehicles = new ArrayList<>();
 
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila", "root", "caSandRa2!");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sakila", "root", "<DITT_LÖSENORD>");
             System.out.println("Connected to sakila database!");
 
             stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
