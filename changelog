@@ -1,0 +1,12 @@
+19-03-05
+implemented HashMap<Integer, Vehicle> to hold the vehicles in the garage.
+updated relevant methods to handle HashMap, e.g. Garage.park(Vehicle v)
+
+changed name of MySQLConnector.addVehicle() to saveVehicleDB()
+
+created separate project folder for tests
+wrote test for MySQLConnector.saveVehicleDB(Vehicle v)
+
+refactored Vehicle.brand to make
+
+added column (int)parking_lot to the table vehicle
