@@ -5,7 +5,9 @@ updated relevant methods to handle HashMap, e.g. Garage.park(Vehicle v)
 changed name of MySQLConnector.addVehicle() to saveVehicleDB()
 
 created separate project folder for tests
-wrote test for MySQLConnector.saveVehicleDB(Vehicle v)
+wrote test for MySQLConnector.saveVehicleDB(Vehicle v), Garage.park(Vehicle
+v), Vehicle.setParkingLot(int lot)
+
 
 refactored Vehicle.brand to make
 
