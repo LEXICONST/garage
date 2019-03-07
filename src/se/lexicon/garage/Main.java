@@ -7,8 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException {
 
-        UserInterface ui = new UserInterface(new Garage());
-        ui.parkVehicle();
+        UserInterface.runMenu();
 
 /*
         ArrayList<Vehicle> vehicles = MySQLConnection.getVehiclesDB();

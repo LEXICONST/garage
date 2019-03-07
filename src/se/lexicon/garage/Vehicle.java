@@ -4,6 +4,8 @@ public abstract class Vehicle {
 
     protected String make;
 
+    protected int topSpeed;
+
     protected int parkingLot = 0;
 
     public Vehicle(){
@@ -13,6 +15,24 @@ public abstract class Vehicle {
     public Vehicle(String make){
         setMake(make);
     }
+
+    public Vehicle(String make, int topSpeed, int parkingLot){
+        setMake(make);
+        setTopSpeed(topSpeed);
+        setParkingLot(parkingLot);
+    }
+
+    public int getTopSpeed(){
+        return topSpeed;
+    }
+
+    public void setTopSpeed(int newTopSpeed){
+        if(newTopSpeed >= 0){
+            topSpeed = newTopSpeed;
+        }
+        else throw new IllegalArgumentException("The top speed cannot be negative. Know your physics!!!");
+    }
+
 
     public void setMake(String make) {
         if (make.matches("^[a-zA-ZåäöüÅÄÖÜ0-9\\s\\-]+$") && make.length() > 0) {

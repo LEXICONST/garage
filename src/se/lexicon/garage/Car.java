@@ -2,26 +2,19 @@ package se.lexicon.garage;
 
 public class Car extends Vehicle{
 
-    private int topSpeed;
+    private boolean automatic;
 
-    public Car(String brand){
-        super(brand);
+    public Car(String make){
+        super(make);
     }
 
-    public Car(String brand, int topSpeed){
-        setMake(brand);
+    public Car(String make, int topSpeed){
+        setMake(make);
         setTopSpeed(topSpeed);
     }
 
-    public int getTopSpeed(){
-        return topSpeed;
-    }
-
-    public void setTopSpeed(int newTopSpeed){
-        if(newTopSpeed >= 0){
-            topSpeed = newTopSpeed;
-        }
-        else throw new IllegalArgumentException("The top speed cannot be negative. Know your physics!!!");
+    public Car(String make, int topSpeed, int parkingLot){
+        super(make, topSpeed, parkingLot);
     }
 
 }

@@ -1,0 +1,5 @@
+*change MySQLConnection.getVehiclesDB to return a Map instead of an ArrayList
+*ändra i DB: coulumn maker ska heta make:
+förslag: skapa ett Ticket-object. (impl. LocalDate)
+förslag: bryta ut parking_lot till en egen tabell
+

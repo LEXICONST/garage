@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class UserInterface {
 
-    private Garage garage;
+    private static Garage garage;
 
     private Scanner scanner = new Scanner(System.in);
 
@@ -14,8 +14,18 @@ public class UserInterface {
 
     }
 
-    public void runMenu(){
+    public static void runMenu() throws SQLException{
+        garage = new Garage();
+        garage.setVehicles();
+
         System.out.println("Hello World! Welcome to Glade Grannens Garage!");
+
+        System.out.println("Vad vill du göra?\n" +
+                "1: Parkera ett fordon\n" +
+                "2: Hämta ett fordon\n" +
+                "3: Visa alla parkerade fordon\n" +
+                "4: Avsluta");
+
     }
 
     public void parkVehicle() throws SQLException{
