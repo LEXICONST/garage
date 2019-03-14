@@ -7,31 +7,41 @@ public class UserInterface {
 
     private static Garage garage;
 
-    private Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
-    public UserInterface(Garage garage){
+    public UserInterface(Garage garage) {
         this.garage = garage;
-
     }
 
-    public static void runMenu() throws SQLException{
-        garage = new Garage();
-        garage.setVehicles();
+    public static void runMenu() throws SQLException {
 
+        String input = "";
+        int intInput = 0;
         System.out.println("Hello World! Welcome to Glade Grannens Garage!");
 
-        System.out.println("Vad vill du göra?\n" +
-                "1: Parkera ett fordon\n" +
-                "2: Hämta ett fordon\n" +
-                "3: Visa alla parkerade fordon\n" +
-                "4: Avsluta");
+        do {
+            System.out.println("Vad vill du göra?\n" +
+                    "1: Parkera ett fordon\n" +
+                    "2: Hämta ett fordon\n" +
+                    "3: Visa alla parkerade fordon\n" +
+                    "4: Avsluta");
+
+            //Övning i att kasta till int
+            input = scanner.nextLine();
+            try{
+                intInput = Integer.parseInt(input);
+            }catch (NumberFormatException e){
+                System.out.println("Du måste ange ett heltal!");
+            }
+
+        }while(true);
 
     }
 
-    public void parkVehicle() throws SQLException{
+    public void parkVehicle() throws SQLException {
         System.out.println("What type of vehicle is it?: ");
         String type = scanner.nextLine();
-        if(type.equalsIgnoreCase("car")){
+        if (type.equalsIgnoreCase("car")) {
             parkCar();
         }
     }
@@ -48,15 +58,15 @@ public class UserInterface {
         MySQLConnection.saveVehicleDB(car);
     }
 
-    public void findVehicle(){
+    public void findVehicle() {
 
     }
 
-    public void unparkVehicle(){
+    public void unparkVehicle() {
 
     }
 
-    public void showAllVehiclesInGarage(){
+    public void showAllVehiclesInGarage() {
 
     }
 

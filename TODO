@@ -1,5 +1,15 @@
-*change MySQLConnection.getVehiclesDB to return a Map instead of an ArrayList
-*ändra i DB: coulumn maker ska heta make:
+ta bort parkingLot-fältet från Vehicle
+trimma timeStamps utskrift i Ticket.toString()
+park ska returnera en Ticket
+skapa UI-metoder
 förslag: skapa ett Ticket-object. (impl. LocalDate)
 förslag: bryta ut parking_lot till en egen tabell
+
+19-03-14
+*skapa javadoc
+*skapa Ticket-objekt
+
+19-03-07
+*change MySQLConnection.getVehiclesDB to return a Map instead of an ArrayList
+*ändra i DB: coulumn maker ska heta make:
 
